@@ -1,0 +1,150 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navi a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.navi a:hover{
+     color: chocolate;
+
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;  
+    background: url(IMG_٢٠٢٤٠٢١٤_١٦٠٢٠٥.jpg)no-repeat ;  
+    background-color: black;
+    background-position: right;
+    background-attachment: fixed;
+}
+.main h2{
+    color: #f0f0f0;
+    font-size: 1.4em;
+    font-weight: 500;
+} 
+.main h3{
+    color: #3a6cf4;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.art{
+    color: #f0f0f0;
+    text-decoration: none;
+    background-color: #0644f1;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.art:hover{
+    background-color: #3a6cf4;
+    transform: scale(1.1);
+}
+.soc a{
+    color: #f0f0f0;
+    font-size: 1.7em;
+    padding-right: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #0644f1;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.arb{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #f0f0f0;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+    border-radius: 10px; 
+    padding: 25px;
+    margin: 20px;
+    transition: 0.5s ease;
+}
+.icons{
+    color: #3a6cf4;
+    font-size: 8em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.arc{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 1em;
+    
+    
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.are{
+    background-color: black;
+}
+.ard{
+    color: #0644f1;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+
+}
+.arz{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
